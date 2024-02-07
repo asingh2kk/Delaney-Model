@@ -7,7 +7,7 @@ The Delaney ML Project is designed to predict the solubility of molecules, a cru
 ## Project Structure
 
 - **Data Loading:** The process begins by loading the solubility dataset, which includes molecular descriptors necessary for solubility prediction.
-- **Data Preparation:** Here, the dataset is prepared for modeling. This includes separating the data into features (X) and the target variable (Y), followed by splitting into training and test sets.
+- **Data Preparation:** Here, the dataset is prepared for modeling. This includes separating the data into features (x) and the target variable (y), followed by splitting into training and test sets.
 - **Model Building:**
   - *Linear Regression:* A basic model to establish a baseline for prediction accuracy.
   - *Random Forest:* A more complex model expected to capture non-linear relationships better.

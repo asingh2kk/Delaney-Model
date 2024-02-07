@@ -1,36 +1,36 @@
-Delaney ML Project for Molecular Solubility Prediction
-Overview
-The Delaney ML Project is designed to predict the solubility of molecules, a crucial piece of information for chemists and biologists. This machine learning model utilizes a unique dataset that includes various molecular properties to determine whether a molecule is soluble in water or different solvents. This README outlines the project structure, how to set it up, and how to use the code to make predictions.
+# Delaney ML Project for Molecular Solubility Prediction
 
-Project Structure
-The project is organized as follows:
+## Overview
 
-Data Loading: The process begins by loading the solubility dataset, which includes molecular descriptors necessary for solubility prediction.
+The Delaney ML Project is designed to predict the solubility of molecules, a crucial piece of information for chemists and biologists. This machine learning model utilizes a unique dataset that includes molecular descriptors necessary for determining whether a molecule is soluble in water or different solvents. This README outlines the project structure, setup instructions, and usage guidelines.
 
-Data Preparation: Here, the dataset is prepared for modeling. This includes separating the data into features (X) and the target variable (Y), followed by splitting into training and test sets.
+## Project Structure
 
-Model Building: Two models are explored:
+- **Data Loading:** Initial loading of the solubility dataset.
+- **Data Preparation:** Preparation of the dataset for modeling, including feature and target variable separation, followed by training and test set splitting.
+- **Model Building:**
+  - *Linear Regression:* Baseline model for prediction accuracy.
+  - *Random Forest:* Advanced model for capturing complex patterns.
+- **Model Evaluation:** Evaluation of models using metrics like RMSE and R-squared.
+- **Data Visualization:** Visualization of actual vs. predicted solubility values.
 
-Linear Regression: A basic model to establish a baseline for prediction accuracy.
-Random Forest: A more complex model expected to capture non-linear relationships better.
-Model Evaluation: Both models are evaluated based on their performance metrics, such as RMSE (Root Mean Square Error) and R-squared values.
+## Setup Instructions
 
-Data Visualization: Visualization of prediction results to compare the actual solubility values with the predicted ones.
+```bash
+# Clone the repository
+git clone <repository-url>
+cd <repository-directory>
 
-Setup Instructions
-Environment Setup: Ensure you have a Python environment with necessary libraries such as pandas, numpy, sklearn, and matplotlib installed.
+# Install required Python packages
+pip install -r requirements.txt
 
-Data: The dataset should be placed in a known directory. Update the data loading section of the notebook if your dataset path differs from the default.
+# Open the Jupyter notebook
+jupyter notebook delaney_project.ipynb
+```
 
-Running the Notebook: Open the delaney_project.ipynb in a Jupyter environment and execute the cells sequentially to reproduce the results.
+## Usage
 
-Usage
-To use this project for your molecular solubility prediction tasks, follow these steps:
-
-Prepare Your Dataset: Ensure your dataset follows the same format as the Delaney dataset used in this project, with appropriate molecular descriptors.
-
-Model Training: You can train the Linear Regression or Random Forest models provided in the notebook with your dataset.
-
-Prediction: Use the trained model to predict solubility on new molecules by inputting their descriptors into the model.
-
-Evaluation and Visualization: Evaluate the model's performance on your data and visualize the prediction results using the provided code sections.
+1. **Prepare Your Dataset:** Ensure it follows the format of the provided Delaney dataset.
+2. **Model Training:** Train the provided Linear Regression or Random Forest models with your dataset.
+3. **Prediction:** Input molecular descriptors into the trained model for solubility prediction.
+4. **Evaluation and Visualization:** Use the provided code to evaluate and visualize your prediction results.

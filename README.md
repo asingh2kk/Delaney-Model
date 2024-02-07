@@ -2,19 +2,23 @@
 
 ## Overview
 
-The Delaney ML Project is designed to predict the solubility of molecules, a crucial piece of information for chemists and biologists. This machine learning model utilizes a unique dataset that includes molecular descriptors necessary for determining whether a molecule is soluble in water or different solvents. This README outlines the project structure, setup instructions, and usage guidelines.
+The Delaney ML Project is designed to predict the solubility of molecules, a crucial piece of information for chemists and biologists. This machine learning model utilizes a unique dataset that includes various molecular properties to determine whether a molecule is soluble in water or different solvents. This README outlines the project structure, how to set it up, and how to use the code to make predictions.
 
 ## Project Structure
 
-- **Data Loading:** Initial loading of the solubility dataset.
-- **Data Preparation:** Preparation of the dataset for modeling, including feature and target variable separation, followed by training and test set splitting.
+- **Data Loading:** The process begins by loading the solubility dataset, which includes molecular descriptors necessary for solubility prediction.
+- **Data Preparation:** Here, the dataset is prepared for modeling. This includes separating the data into features (X) and the target variable (Y), followed by splitting into training and test sets.
 - **Model Building:**
-  - *Linear Regression:* Baseline model for prediction accuracy.
-  - *Random Forest:* Advanced model for capturing complex patterns.
-- **Model Evaluation:** Evaluation of models using metrics like RMSE and R-squared.
-- **Data Visualization:** Visualization of actual vs. predicted solubility values.
+  - *Linear Regression:* A basic model to establish a baseline for prediction accuracy.
+  - *Random Forest:* A more complex model expected to capture non-linear relationships better.
+- **Model Evaluation:** Both models are evaluated based on their performance metrics, such as RMSE (Root Mean Square Error) and R-squared values.
+- **Data Visualization:** Visualization of prediction results to compare the actual solubility values with the predicted ones.
 
 ## Setup Instructions
+
+- **Environment Setup:** Ensure you have a Python environment with necessary libraries such as pandas, numpy, sklearn, and matplotlib installed.
+- **Data:** The dataset should be placed in a known directory. Update the data loading section of the notebook if your dataset path differs from the default.
+- **Running the Notebook:** Open the delaney_project.ipynb in a Jupyter environment and execute the cells sequentially to reproduce the results.
 
 ```bash
 # Clone the repository

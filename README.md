@@ -1,8 +1,8 @@
-# Delaney ML Project for Molecular Solubility Prediction
+# ML Project for Molecular Solubility Prediction
 
 ## Overview
 
-The Delaney ML Project is designed to predict the solubility of molecules, a crucial piece of information for chemists and biologists. This machine learning model utilizes a unique dataset that includes various molecular properties to determine whether a molecule is soluble in water or different solvents. This README outlines the project structure, how to set it up, and how to use the code to make predictions.
+This ML Project is designed to predict the solubility of molecules, a crucial piece of information for chemists and biologists. This machine learning model utilizes a unique dataset that includes various molecular properties to determine whether a molecule is soluble in water or different solvents.
 
 ## Project Structure
 
@@ -16,7 +16,7 @@ The Delaney ML Project is designed to predict the solubility of molecules, a cru
 
 ## Setup Instructions
 
-- **Environment Setup:** Ensure you have a Python environment with necessary libraries such as pandas, numpy, sklearn, and matplotlib installed.
+- **Environment Setup:** Have a Python environment with necessary libraries such as pandas, numpy, sklearn, and matplotlib installed.
 - **Data:** The dataset should be placed in a known directory. Update the data loading section of the notebook if your dataset path differs from the default.
 - **Running the Notebook:** Open the delaney_project.ipynb in a Jupyter environment and execute the cells sequentially to reproduce the results.
 

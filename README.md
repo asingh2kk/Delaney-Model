@@ -1,5 +1,3 @@
-# ML Project for Molecular Solubility Prediction
-
 ## Overview
 
 This ML Project is designed to predict the solubility of molecules, a crucial piece of information for chemists and biologists. This machine learning model utilizes a unique dataset that includes various molecular properties to determine whether a molecule is soluble in water or different solvents.

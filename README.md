@@ -31,10 +31,3 @@ pip install -r requirements.txt
 # Open the Jupyter notebook
 jupyter notebook delaney_project.ipynb
 ```
-
-## Usage
-
-1. **Prepare Your Dataset:** Ensure it follows the format of the provided Delaney dataset.
-2. **Model Training:** Train the provided Linear Regression or Random Forest models with your dataset.
-3. **Prediction:** Input molecular descriptors into the trained model for solubility prediction.
-4. **Evaluation and Visualization:** Use the provided code to evaluate and visualize your prediction results.
